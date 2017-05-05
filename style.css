@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body .main {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: linear-gradient(141deg, rgb(15, 184, 173, 0.01) 0%, rgb(31, 200, 219, 0.025) 50%, rgb(44, 181, 232, 0.05) 100%);
+  box-shadow: 2px 2px 5px #888888;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body .main h1 {
+  text-align: center;
+  margin: 30;
+  font-family: Antic Slab;
+}
+
+body .main .grid-container {
+  width: 450px;
+  height: 450px;
+  margin: 0 0 30 0;
+  background: black;
+  box-shadow: 1px 1px 2.5px black;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  justify-items: stretch;
+  align-items: stretch;
+}
+
+body .main .grid-container .grid-square {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: repeat(3, 1fr);
+   justify-items: stretch;
+   align-items: stretch;
+   border: 1px solid rgb(0, 128, 0, 0.5);
+}
+
+body .main .grid-container .grid-square .grid-element {
+  background-color: rgb(243, 247, 243);
+  color: rgb(0, 128, 0);
+  border: 1px solid rgb(0, 128, 0, 0.25);
+  font-family: Cabin;
+  font-size: 26;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none; 
+  -ms-user-select: none;
+  cursor: default;
+  outline: 0;
+}
+
+body .main button {
+  margin: 0;
+  padding: 5 10;
+  background: rgb(243, 247, 243);
+  border: 1px solid rgb(0, 128, 0, 1);
+  font-family: Roboto;
+  font-size: 16;
+  transition: background 0.5s;
+  outline: 0;
+  border: 2px solid rgb(0, 128, 0);
+  border-radius: 3px;
+}
+
+body .main button:hover {
+  transition: background 0.5s;
+  background: rgb(160, 207, 160);
+  border: 2px solid rgb(0, 64, 0, 1);
+  border-radius: 3px;
+}
+
+body .main button:active {
+  transition: background 0s;
+  background: rgb(80, 250, 80);
+  border: 2px solid rgb(0, 255, 0, 1);
+  border-radius: 3px;
+}
+
+body .main button::-moz-focus-inner {
+  border: 0;
+}
+
+body .main .main-buttons-container {
+  width: 145px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: space-between;
+}
+
+body .main .input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 0 0 15 0;
+  box-shadow: 2px 2px 5px #888888;
+}
+
+body .main .input-header {
+  margin: 0;
+  padding: 15 15 0 15;
+  font-family: Play;
+  font-size: 36;
+}
+
+body .main .input-text-area {
+  margin: 20;
+  padding: 2px 0px 0px 1px;
+  overflow-y: hidden;
+  resize: none;
+  font-family: Play;
+  font-size: 16;
+  width: 92;
+  color: rgb(0, 128, 0);
+  background-color: rgb(240, 250, 240);
+  border: 2px solid rgb(0, 64, 0);
+  border-radius: 5px;
+}
+
+body .main .input-text-area::placeholder {
+  margin: 20;
+  overflow-y: hidden;
+  resize: none;
+  font-family: Play;
+  font-size: 10;
+  width: 92;
+  color: rgb(0, 64, 0);
+}
+
+body .main .input-buttons-container {
+  width: 125px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: space-between;
+}
