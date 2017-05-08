@@ -39,13 +39,13 @@ body .main .grid-container .grid-square {
    grid-template-rows: repeat(3, 1fr);
    justify-items: stretch;
    align-items: stretch;
-   border: 1px solid rgb(0, 128, 0, 0.5);
+   border: 1px solid rgba(0, 128, 0, 0.5);
 }
 
 body .main .grid-container .grid-square .grid-element {
   background-color: rgb(243, 247, 243);
   color: rgb(0, 128, 0);
-  border: 1px solid rgb(0, 128, 0, 0.25);
+  border: 1px solid rgba(0, 128, 0, 0.25);
   font-family: Cabin;
   font-size: 26;
   text-align: center;
@@ -63,7 +63,7 @@ body .main button {
   margin: 0;
   padding: 5 10;
   background: rgb(243, 247, 243);
-  border: 1px solid rgb(0, 128, 0, 1);
+  border: 1px solid rgba(0, 128, 0, 1);
   font-family: Roboto;
   font-size: 16;
   transition: background 0.5s;
@@ -75,14 +75,14 @@ body .main button {
 body .main button:hover {
   transition: background 0.5s;
   background: rgb(160, 207, 160);
-  border: 2px solid rgb(0, 64, 0, 1);
+  border: 2px solid rgba(0, 64, 0, 1);
   border-radius: 3px;
 }
 
 body .main button:active {
   transition: background 0s;
   background: rgb(80, 250, 80);
-  border: 2px solid rgb(0, 255, 0, 1);
+  border: 2px solid rgba(0, 255, 0, 1);
   border-radius: 3px;
 }
 
