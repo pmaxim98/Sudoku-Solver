@@ -7,7 +7,7 @@ body .main {
   margin: 0;
   padding: 0;
   height: 100%;
-  background: linear-gradient(141deg, rgb(15, 184, 173, 0.01) 0%, rgb(31, 200, 219, 0.025) 50%, rgb(44, 181, 232, 0.05) 100%);
+  background: linear-gradient(141deg, rgba(15, 184, 173, 0.01) 0%, rgba(31, 200, 219, 0.025) 50%, rgba(44, 181, 232, 0.05) 100%);
   box-shadow: 2px 2px 5px #888888;
   display: flex;
   flex-direction: column;
@@ -17,7 +17,7 @@ body .main {
 body .main h1 {
   text-align: center;
   margin: 30;
-  font-family: Antic Slab;
+  font-family: 'Antic Slab';
 }
 
 body .main .grid-container {
